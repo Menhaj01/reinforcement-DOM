@@ -1,0 +1,17 @@
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  color: red;
+}
+
+#container {
+  display: grid;
+  grid-gap: 10px;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.active {
+  border: 1px solid red;
+}
